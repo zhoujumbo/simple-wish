@@ -2,7 +2,7 @@
 	// 清单文件的版本，这个必须写，而且必须是2
 	"manifest_version": 2,
 	// 插件的名称
-	"name": "跨境电商辅助工具",
+	"name": "自家电商辅助工具",
 	// 插件的版本
 	"version": "1.0.0",
 	// 插件描述
@@ -74,16 +74,16 @@
 	// 插件主页，这个很重要，不要浪费了这个免费广告位
 	"homepage_url": "https://www.baidu.com",
 	// Chrome40以前的插件配置页写法
-	"options_page": "options.html",
+	//"options_page": "options.html",
 	// Chrome40以后的插件配置页写法，如果2个都写，新版Chrome只认后面这一个
-	"options_ui":
-	{
-		"page": "options.html",
+	//"options_ui":
+	//{
+	//	"page": "options.html",
 		// 添加一些默认的样式，推荐使用
-		"chrome_style": true
-	},
+	//	"chrome_style": true
+	//},
 	// 默认语言
-	"default_locale": "zh_CN",
+	"default_locale": "zh_CN"
 	// devtools页面入口，注意只能指向一个HTML文件，不能是JS文件
-	"devtools_page": "devtools.html"
+	//"devtools_page": "devtools.html"
 }
